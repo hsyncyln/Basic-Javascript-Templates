@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(211, 211, 248);
+}
+#schema{
+ 
+    display:inline-block;
+    margin-top: 3%;
+    margin-left:30%;
+    margin-right:30%;
+    background-color: white;
+    width:40%;
+ }
+
+form{
+    padding:5%;
+}
+nav a{
+    margin-left: 33% ;
+    color:white !important;
+    font-weight: bold;
+}
+button{
+    margin-left: 15% ;
+    width: 70%;
+}
+#error{
+    background-color: rgb(221, 166, 177);
+}
+
+#load{
+    margin-left: 46%;
+    display:none;
+}
+
+#result h5{
+    text-align:center;
+}
+.bs-example{
+    margin: 20px;        
+}
