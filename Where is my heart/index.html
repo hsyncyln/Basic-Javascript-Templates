@@ -1,0 +1,30 @@
+<html>
+
+    <body>
+
+        <img src="./image/farkresim.jpg" onclick="show()"> 
+        <div id="test"></div>
+
+        <script>
+
+            function show(){
+
+            
+            var x=event.clientX;
+            var y=event.clientY;
+
+            console.log(x+"  "+y);
+            if(x>222 && x<240 && y>219 && y<235){
+                
+                document.getElementById("test").innerHTML="<h2>Kalbi buldum</h2>"
+            }
+            else{
+                document.getElementById("test").innerHTML=""
+            }
+        }
+
+        </script>
+
+    </body>
+
+</html>
